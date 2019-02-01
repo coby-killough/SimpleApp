@@ -1,0 +1,11 @@
+<TabView androidTabsPosition="bottom">
+    <TabViewItem title="Home">
+        <Frame defaultPage="home/home-page"></Frame>
+    </TabViewItem>
+    <TabViewItem title="Gestures">
+        <Frame defaultPage="home/gestures-page"></Frame>
+    </TabViewItem>
+    <TabViewItem title="Settings">
+        <Frame defaultPage="home/settings-page"></Frame>
+    </TabViewItem>
+</TabView>

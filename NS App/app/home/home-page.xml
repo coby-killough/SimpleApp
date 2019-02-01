@@ -1,0 +1,13 @@
+<Page class="page"
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    loaded="pageLoaded">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="{{ name }}"></Label>
+    </ActionBar>
+
+    <StackLayout>
+        <Label text="Coby Killough" class="nameHeader" />
+        <Label text="This program is in fulfillment of CMSC 4233 Spring 2019 Assignment 2" textWrap="true" />
+    </StackLayout>
+</Page>

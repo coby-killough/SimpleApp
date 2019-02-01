@@ -1,0 +1,19 @@
+<Page class="page" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="{{ name }}"></Label>
+    </ActionBar>
+    <StackLayout>
+        <GridLayout columns="auto, 50, *" rows="auto, auto, auto">
+            <Label text="Name" />
+            <Button col="1" colSpan="2" text="{{ name }}" tap="{{ promptName }}" />
+
+            <Label text="Height" row="1" />
+            <TextField row="1" col="1" text="{{ height }}" keyboardType="number" />
+            <Label col="2" row="1" text="inches" />
+
+            <Label row="2" text="Weight" />
+            <TextField row="2" col="1" text="{{ weight }}" keyboardType="number" />
+            <Label row="2" col="2" text="lbs" />
+        </GridLayout>
+    </StackLayout>
+</Page>

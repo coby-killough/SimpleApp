@@ -1,0 +1,10 @@
+<Page class="page" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="{{ name }}"></Label>
+    </ActionBar>
+    <StackLayout>
+                <Label text="Long Press for Height" longPress="onLongPress" class="gestureLabel" />
+                <Label text="Double Tap for Weight" doubleTap="onDoubleTap" class="gestureLabel" />
+                <Label text="Swipe" swipe="onSwipe" class="gestureLabel" />
+            </StackLayout>
+</Page>
